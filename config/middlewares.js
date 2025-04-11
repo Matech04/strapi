@@ -9,4 +9,10 @@ module.exports = [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: ['http://localhost:3000'], // Dodaj adres Reacta
+    },
+  },
 ];

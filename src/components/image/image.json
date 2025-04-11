@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_image_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "alt_pl": {
+      "type": "text",
+      "required": true
+    },
+    "alt_en": {
+      "type": "text",
+      "required": true
+    },
+    "alt_de": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
