@@ -12,7 +12,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:3000'], // Dodaj adres Reacta
+      origin: ['http://localhost:3000', 'http://gmtechnics.com', 'https://gmtechnics.com'], // Dodaj adres Reacta
     },
   },
 ];
